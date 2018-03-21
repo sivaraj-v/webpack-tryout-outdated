@@ -2,8 +2,7 @@
 
 > ### Webpack
 ```sh
-npm install webpack webpack-cli -D
-npm i webpack-dev-server -D
+npm install webpack webpack-cli webpack-dev-server -D
 ```
 
 
