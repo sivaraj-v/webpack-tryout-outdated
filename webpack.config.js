@@ -1,9 +1,8 @@
 const path = require("path");
 const webpack = require("webpack");
-__dirname = path.join(__dirname, "../");
 const webpack_rules = [];
 const webpackOption = {
-    entry: "./src/js/app.js",
+    entry: "./app.js",
     output: {
         path: path.resolve(__dirname, "dist"),
         filename: "bundle.js", // "bundle-[chunkhash].js"
